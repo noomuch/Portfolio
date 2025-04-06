@@ -2,11 +2,15 @@ newFunction();
 
 function newFunction() {
       document.getElementById("menu-toggle").addEventListener("change", function () {
-            const sticker = document.querySelector(".sticker");
+            const stickerContainer = document.querySelector(".sticker-container");
+            const portfolioContainer = document.querySelector(".portfolio-container");
+
             if (this.checked) {
-                  sticker.style.display = "none";
+                  stickerContainer.style.display = "none";
+                  portfolioContainer.style.marginTop = "20%";
             } else {
-                  sticker.style.display = "block";
+                  stickerContainer.style.display = "block";
+                  portfolioContainer.style.marginTop = "";
             }
       });
 }

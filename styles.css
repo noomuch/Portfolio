@@ -64,6 +64,10 @@ nav {
     position:static;
 }
 
+.portfolio-container{
+    display:block;
+}
+
 .portfolio-section {
       background-image: url(newbg.png);
       height: 200px;
@@ -81,6 +85,7 @@ nav {
 }
 
 .sticker {
+    display:block;
     width: 120px;
     position: relative;
     left: -33%;
