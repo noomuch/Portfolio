@@ -8,6 +8,7 @@ body {
     text-align: center;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+    position:static;
 }
 
 nav {
@@ -55,7 +56,8 @@ nav {
     font-family:"Caveat", cursive;
     font-size: 90px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: -40px;
+    position:static;
 }
 
 .portfolio-section {
@@ -76,9 +78,9 @@ nav {
 
 .sticker {
     width: 120px;
-    position: absolute;
-    left: 33%;
-    top: 20%;
+    position: relative;
+    left: -33%;
+    top: 5%;
 }
 
 .info-grid {
@@ -99,7 +101,7 @@ nav {
     padding: 20px;
     background-color: #f5f5f5;
     border-radius: 20px;
-
+    position:static;
 }
 
 #cover {
@@ -121,7 +123,12 @@ nav {
     size: flex;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
+
+    .profile {
+        position:static;
+        margin-bottom: 50%;
+    }
 
     .nav {
         display:block;
@@ -163,7 +170,17 @@ nav {
     }
 
     .info-grid {
-        padding-top: 20%;
+        margin-top: 40%;
+        padding-top: 10%;
         grid-template-columns: 1fr;
+        position:static;
+    }
+
+    .info-box {
+        position:static;
+    }
+
+    .profiledetails {
+        position:static;
     }
 }
