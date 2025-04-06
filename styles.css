@@ -85,10 +85,9 @@ nav {
 }
 
 .sticker {
-    display:block;
     width: 120px;
+    left: -10%;
     position: relative;
-    left: -33%;
     top: 5%;
 }
 
